@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | Rinterio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div style="display:flex;align-items:center;gap:12px"><img src="images/logo.png" alt="Rinterio logo"><strong style="font-size:20px">Rinterio</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="houses.html">Houses</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section style="padding:60px 20px;text-align:center;background:linear-gradient(180deg,#fff,#f6fbff)">
+    <h1>Get in Touch</h1>
+    <p style="color:var(--muted);max-width:700px;margin:12px auto">Have a question or want to list your property? Send us a message and we'll get back to you.</p>
+  </section>
+
+  <section style="padding:20px 40px;display:flex;gap:30px;flex-wrap:wrap;justify-content:center">
+    <form action="https://formspree.io/f/mayzbyjw" method="POST" style="background:var(--card);padding:20px;border-radius:10px;box-shadow:var(--shadow);min-width:320px;max-width:480px">
+      <label for="name">Full name</label><br>
+      <input type="text" id="name" name="name" required style="width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px">
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" required style="width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px">
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" required style="width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px"></textarea>
+      <button type="submit" style="background:var(--primary);color:#fff;padding:10px 16px;border:none;border-radius:6px;cursor:pointer">Send Message</button>
+    </form>
+
+    <div style="min-width:260px;max-width:420px;background:var(--card);padding:20px;border-radius:10px;box-shadow:var(--shadow)">
+      <h3>Contact Information</h3>
+      <p><strong>Email:</strong> 2223081099@uttarauniversity.edu.bd</p>
+      <p><strong>Location:</strong> Dhaka, Bangladesh</p>
+      <p><strong>Hours:</strong> Mon–Fri, 9 AM – 6 PM</p>
+    </div>
+  </section>
+
+  <footer>© 2025 Rinterio. All rights reserved · Contact: 2223081099@uttarauniversity.edu.bd</footer>
+</body>
+</html>
